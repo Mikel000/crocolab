@@ -1,0 +1,73 @@
+.protocols-style {
+    color: white;
+    background-color: darkgreen;
+    background-image: url("../assets/Medical-waste-back-black.jpg");
+    padding: 120px;
+    background-size: cover;
+
+}
+
+.pipettes:hover {
+    opacity: 0.75;
+}
+.loop:hover {
+    opacity: 0.75;
+}
+.dish:hover {
+    opacity: 0.75;
+}
+
+
+
+.falcon {
+    height: 200px;
+    width: 200px;
+    margin-right: 65px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.falcon:hover {
+    opacity: 0.75;
+}
+.pipettes {
+    height: 200px;
+    width: 200px;
+    margin-right: 65px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.loop {
+    height: 200px;
+    width: 200px;
+    margin-right: 65px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.dish {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
