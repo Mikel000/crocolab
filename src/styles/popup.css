@@ -1,0 +1,34 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(35, 35, 35, 0.676);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.popup-inner {
+    position: relative;
+    color: black;
+    padding: 32px;
+    width: 100%;
+    max-width: 1000px;
+    background: #FFF;
+    z-index:0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../assets/copybook.jpg);
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

@@ -1,0 +1,145 @@
+.protocols-style {
+    color: white;
+    background-color: darkgreen;
+    background-image: url("../assets/Medical-waste-back-black.jpg");
+    padding: 65px;
+    padding-left:100px ;
+    background-size: cover;
+    font-style: italic;
+    font-size:19px;
+    align-items: center;
+
+}
+
+.pipettes:hover {
+    opacity: 0.75;
+}
+.loop:hover {
+    opacity: 0.75;
+}
+.dish:hover {
+    opacity: 0.75;
+}
+
+.pasdingo{
+    padding-left: 125px;
+    padding-bottom: 25px;
+    font-style: normal;
+    padding-top: 30px;
+}
+.animated-quote {
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.falcon {
+    height: 200px;
+    width: 200px;
+    margin-right: 65px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.falcon:hover {
+    opacity: 0.75;
+}
+.pipettes {
+    height: 200px;
+    width: 200px;
+    margin-right: 65px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.loop {
+    height: 200px;
+    width: 200px;
+    margin-right: 65px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.dish {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tips{
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+    height: 80%;
+    background-color: rgba(244, 230, 230, 0.712);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgb(0, 0, 0)
+}
+
+#tipsbis{
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding-bottom: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+    height: 80%;
+    background-color: rgba(244, 230, 230, 0.712);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgb(0, 0, 0)
+}
+
+.generaltips{
+    padding-left: 500px;
+}
+.testtest{
+    color:black;
+    font-weight:bold;
+}
+
+#inititle{
+    padding-left: 450px;
+}
